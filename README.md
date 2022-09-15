@@ -28,9 +28,9 @@ In the first line of the file, these headings should be “Organization, Project
 ### Script Commands
 There are 6 main commands in total. These are as follows:
 <h2>1.	Check</h2>
-```python3 cvat_script.py check_csv <csv_file>```
-for example:
- ```python3 cvat_script.py check_csv csv_file.csv```
+`python3 cvat_script.py check_csv <csv_file>`
+</br>for example:</br>
+ `python3 cvat_script.py check_csv csv_file.csv`
 
 <h3>Purpose</h3> It checks whether the contents of the csv_file file whose path is given are in the appropriate format. If the format is correct, the message format True is returned. If false, it lists where the errors are.
 <h3>How It Works</h3> If there is missing information in the given csv file, it gives the warning "{index}. row is empty or wrong", this is not an error. Checks whether the information in the Organization, Project, TaskName, Assigne columns is in CVAT. If there is no information available, it will throw an error.
