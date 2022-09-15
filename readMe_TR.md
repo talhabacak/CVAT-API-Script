@@ -1,5 +1,5 @@
 1-) Check CSV:
-python cvat_script.py --check_csv csv_file -> path'i verilen csv_file dosyasının içeriğinin uygun formatta olup olmadığını kontrol eder. Format doğruysa format doğru mesajı döner. Yanlışsa yanlışların nerede olduğunu listeler.
+python cvat_script.py --check_csv csv_file -> path'i verilen csv_file dosyasının içeriğinin uygun formatta olup olmadığını kontrol eder. Format doğruysa format doğru mesajı döner. Yanlışsa yanlışların nerede olduğunu listeler. Her komutta önce kontrol işlemi yapılır.
 
 2-) List:
 python cvat_script.py list -> çıktı olarak tüm taskların mevcut durumlarını csv formatında verir
