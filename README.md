@@ -8,7 +8,7 @@ Making automatic transactions over csv in CVAT.
 ## Config File
 includes: </br>
 •	[server] </br>
-    ◦	host= </br>
+    </t>◦	host= </br>
     ◦	port= </br>
 •	[log] </br>
     ◦	log_file=True </br>
