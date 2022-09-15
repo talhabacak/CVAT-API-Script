@@ -1,11 +1,11 @@
 # CVAT API Script
 
 
-### Purpose
+## Purpose
 Making automatic transactions over csv in CVAT.
 
 
-### Config File
+## Config File
 includes: </br>
 •	[server] </br>
     ◦	host= </br>
@@ -21,15 +21,15 @@ includes: </br>
 * Username and password are required to log in. This section will be blank at first. If this part is empty, these will be requested on the console.
 
 
-### Csv File Format
+## Csv File Format
 In the first line of the file, these headings should be “Organization, Project, TaskName, UploadType, UploadPath, Assignee, JobStage, JobState”. The entered information should not be wrong, this information is checked with the check() command.
 
 
-### Script Commands
+## Script Commands
 There are 6 main commands in total. These are as follows:
 
 
-##### 1.	 Check
+### 1.	 Check
 ```shell
 python3 cvat_script.py check_csv <csv_file>
 ```
@@ -38,6 +38,9 @@ python3 cvat_script.py check_csv <csv_file>
 python3 cvat_script.py check_csv csv_file.csv
 ```
 
-<h3>Purpose</h3> It checks whether the contents of the csv_file file whose path is given are in the appropriate format. If the format is correct, the message format True is returned. If false, it lists where the errors are.
-<h3>How It Works</h3> If there is missing information in the given csv file, it gives the warning "{index}. row is empty or wrong", this is not an error. Checks whether the information in the Organization, Project, TaskName, Assigne columns is in CVAT. If there is no information available, it will throw an error.
+#### Purpose
+It checks whether the contents of the csv_file file whose path is given are in the appropriate format. If the format is correct, the message format True is returned. If false, it lists where the errors are.
+
+#### How It Works
+If there is missing information in the given csv file, it gives the warning "{index}. row is empty or wrong", this is not an error. Checks whether the information in the Organization, Project, TaskName, Assigne columns is in CVAT. If there is no information available, it will throw an error.
 
