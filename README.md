@@ -44,3 +44,13 @@ It checks whether the contents of the csv_file file whose path is given are in t
 #### How It Works
 If there is missing information in the given csv file, it gives the warning "{index}. row is empty or wrong", this is not an error. Checks whether the information in the Organization, Project, TaskName, Assigne columns is in CVAT. If there is no information available, it will throw an error.
 
+### 2.	List:
+```shell
+python3 cvat_script.py list
+```
+</br>for example:</br>
+```shell python3 cvat_script.py list
+```
+#### Purpose
+It outputs the current status of all tasks in csv format.
+
