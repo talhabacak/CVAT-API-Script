@@ -24,7 +24,7 @@ In the first line of the file, these headings should be “Organization, Project
 
 ### Script Commands
 There are 6 main commands in total. These are as follows:
-1.	<h1>Check</h1>:
+1.	<h2>Check</h2>
 ```python3 cvat_script.py check_csv <csv_file>```
 for example: ```python3 cvat_script.py check_csv csv_file.csv```
 
