@@ -14,7 +14,7 @@ includes: </br>
     &emsp; ◦	log_file=True </br>
 •	[user] </br>
     &emsp; ◦	username= </br>
-    &emsp; ◦	password= </br>
+    &emsp; ◦	password= </br></br>
 
 * Server information is required to access CVAT.
 * If log_file is True, logs will be saved to the file. If false, it will not be saved to the file.
