@@ -49,7 +49,8 @@ If there is missing information in the given csv file, it gives the warning "{in
 python3 cvat_script.py list
 ```
 </br>for example:</br>
-```shell python3 cvat_script.py list
+```shell 
+python3 cvat_script.py list
 ```
 #### Purpose
 It outputs the current status of all tasks in csv format.
