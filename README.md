@@ -158,3 +158,5 @@ Default (--format):  PASCAL_VOC_1.1
 
 #### NOTE
 It compares the names of the folders under the path (<annotation_file>) given with the Annotation file and the TaskNames in the csv file.
+
+# [CVAT (Computer Vision Annotation Tool)](https://github.com/opencv/cvat)
