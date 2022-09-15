@@ -38,9 +38,9 @@ python3 cvat_script.py check_csv <csv_file>
 python3 cvat_script.py check_csv csv_file.csv
 ```
 
-#### Purpose
-It checks whether the contents of the csv_file file whose path is given are in the appropriate format. If the format is correct, the message format True is returned. If false, it lists where the errors are.
+    #### Purpose
+    It checks whether the contents of the csv_file file whose path is given are in the appropriate format. If the format is correct, the message format True is returned. If false, it lists where the errors are.
 
-#### How It Works
-If there is missing information in the given csv file, it gives the warning "{index}. row is empty or wrong", this is not an error. Checks whether the information in the Organization, Project, TaskName, Assigne columns is in CVAT. If there is no information available, it will throw an error.
+    #### How It Works
+    If there is missing information in the given csv file, it gives the warning "{index}. row is empty or wrong", this is not an error. Checks whether the information in the Organization, Project, TaskName, Assigne columns is in CVAT. If there is no information available, it will throw an error.
 
