@@ -25,7 +25,7 @@ In the first line of the file, these headings should be “Organization, Project
 ### Script Commands
 There are 6 main commands in total. These are as follows:
 1.	<h2>Check</h2>
-```python3 cvat_script.py check_csv <csv_file>```
+```python3 cvat_script.py check_csv <csv_file>``` </br>
 for example: ```python3 cvat_script.py check_csv csv_file.csv```
 
 <h2>Purpose</h2>: It checks whether the contents of the csv_file file whose path is given are in the appropriate format. If the format is correct, the message format True is returned. If false, it lists where the errors are.
