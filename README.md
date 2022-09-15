@@ -29,7 +29,7 @@ In the first line of the file, these headings should be “Organization, Project
 There are 6 main commands in total. These are as follows:
 
 
-<h2>1.	Check</h2></br>
+##### 1.	 Check
 ```shell
 python3 cvat_script.py check_csv <csv_file>
 ```
