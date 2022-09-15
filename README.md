@@ -28,5 +28,5 @@ There are 6 main commands in total. These are as follows:
 ```python3 cvat_script.py check_csv <csv_file>``` </br>
 for example: ```python3 cvat_script.py check_csv csv_file.csv```
 
-<h2>Purpose</h2>: It checks whether the contents of the csv_file file whose path is given are in the appropriate format. If the format is correct, the message format True is returned. If false, it lists where the errors are.
+<h3>Purpose</h3>: It checks whether the contents of the csv_file file whose path is given are in the appropriate format. If the format is correct, the message format True is returned. If false, it lists where the errors are.
 <h2>How It Works</h2>: If there is missing information in the given csv file, it gives the warning "{index}. row is empty or wrong", this is not an error. Checks whether the information in the Organization, Project, TaskName, Assigne columns is in CVAT. If there is no information available, it will throw an error.
