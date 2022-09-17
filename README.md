@@ -53,14 +53,14 @@ It outputs the current status of all tasks in csv format.
 </br>
 This command works with 6 different parameters. These:
 
-#### 1.	--organization
+#### 2.1.	--organization
 ```shell
 python3 cvat_script.py list --organization <organization_name>
 ```
 
 Purpose: Generates the current status of all tasks with the same organization as <organization_name> in csv format.
 
-#### 2.	--project
+#### 2.2.	--project
 ```shell
 python3 cvat_script.py list --project <project_name>
 ```
@@ -68,21 +68,21 @@ python3 cvat_script.py list --project <project_name>
 Purpose: Generates the current status of all tasks with the same project as <project_name> in csv format.
 
 
-#### 3.	--jobstage
+#### 2.3.	--jobstage
 ```shell
 python3 cvat_script.py list --jobstage <jobstage>
 ```
 
 Purpose: Generates the current status of all tasks with the same jobstage as <jobstage> in csv format.
 
-#### 4.	--jobstate
+#### 2.4.	--jobstate
 ```shell
 python3 cvat_script.py list --jobstate <jobstate>
 ```
 
 Purpose: Generates the current status of all tasks with the same jobstate as <jobstate> in csv format.
 
-#### 5.	--andor
+#### 2.5.	--andor
 ```shell
 python3 cvat_script.py list  --andor <and_or>
 ```
@@ -95,7 +95,7 @@ python3 cvat_script.py list --jobstate in_progress --project project_name --ando
 Purpose: It allows multiple filters to be used as OR or AND.
 Default: and
 
-#### 6.	--o
+#### 2.6.	--o
 ```shell
 python3 cvat_script.py list  -o <csv_file>
 ```
